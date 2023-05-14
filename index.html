@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jquery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+    <header>
+        <h1>Galeria de fotos</h1>
+        <button type="button">Nova imagem +</button>
+    </header>
+    <form>
+        <h2>Inserir nova imagem</h2>
+        <input id="endereco-imagem-nova" type="url" required placeholder="URL da imagema" />
+        <button type="submit">Adicionar</button>
+        <button type="reset" id="botao-cancelar">cancelar</button>
+    </form>
+    <ul>
+        <li>
+            <img src="" alt="">
+            <div class="overlay-imagem-link">
+                <a href="" target="_blank">
+                    ver imagem em tamanho real</a>
+            </div>
+        </li>
+    </ul>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="./main.js"></script> <!--colocar o arquivo js depois do jquery -->
+</body>
+
+</html>
+
+<!-- com display flex o align itemns vira vertical e justify-content vira horizontal-->
